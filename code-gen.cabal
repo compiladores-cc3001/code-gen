@@ -1,0 +1,16 @@
+cabal-version:      2.4
+name:               code-gen
+version:            0.1.0.0
+synopsis:           Example implementation of intermediate code geration
+author:             Pedro Vasconcelos
+maintainer:         pbv@dcc.fc.up.pt
+
+executable code-gen
+    main-is:        Main.hs
+    other-modules:  AST, IR, CodeGen1, CodeGen2, CodeGen3
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    base ^>=4.16.4.0, containers, mtl
+    hs-source-dirs:   src
+    default-language: Haskell2010
