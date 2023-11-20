@@ -7,7 +7,7 @@ maintainer:         pbv@dcc.fc.up.pt
 
 executable code-gen
     main-is:        Main.hs
-    other-modules:  AST, IR, CodeGen1, CodeGen2, CodeGen3
+    other-modules:  AST, IR, CodeGen1, CodeGen2, CodeGen3, Liveness
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
